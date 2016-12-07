@@ -1,5 +1,6 @@
 <!-- the file that processes the customer's order ... the form itself utiliizes several different ajax calls to determine the correct item in the database, the script then finds that item with the correct options added on and the customer's discount applied to the item itself --> 
 
+<?php
 if(isset($_POST['p_order'])) {
 
 	$material = $_POST['mat'];
@@ -190,3 +191,5 @@ if(isset($_POST['p_order'])) {
 	}
 
 }
+
+?>
